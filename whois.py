@@ -11,6 +11,7 @@ def whois(host):
     this method communicates with IBM Xforce API
     and reterive Whois DB
     '''
+    
     headers = {'content-type': 'application/json'}
     url = 'https://api.xforce.ibmcloud.com/whois/' + str(host)
     headers = {'Accept':'application/json', 'Authorization': 'Basic ' + str(token)}
