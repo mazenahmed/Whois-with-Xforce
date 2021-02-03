@@ -23,6 +23,8 @@ def whois(host):
     elif (response.status_code == 401):
         return({0:'Unauthorized.'})
     
+    elif (response.status_code == 402):
+        return({0:'Quota has been Exceeded.'})
     
 print(figlet_format("GETTING INFO"))
 key= getpass(prompt='API Key: ')
