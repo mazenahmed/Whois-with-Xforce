@@ -66,4 +66,4 @@ with open('hosts.csv', mode='r') as csv_host:
 
     output.close()
 print(figlet_format("SEE YA"))
-print("Created By Mazen A. Gaballah")
+print("Written By Mazen A. Gaballah")
